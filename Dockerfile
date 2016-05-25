@@ -1,4 +1,2 @@
-FROM scratch
-ADD busybox.tar.xz /
+FROM busybox:1.24.2-glibc
 VOLUME /data
-CMD ["sh"]
